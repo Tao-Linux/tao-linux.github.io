@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tao Linux</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/Tao-Linux/Tao-ISO/main/assets/tao.ico"
+      type="image/x-icon"
+    />
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Comfortaa, sans-serif;
+      }
+      #taoHeader {
+        position: sticky;
+        top: 0;
+      }
+      #taoIntro {
+        padding-right: 200px;
+        padding-left: 200px;
+      }
+      @media (max-width: 900px) {
+        #taoIntro img {
+          width: 50%;
+          height: 50%;
+        }
+      }
+      @media (max-width: 900px) {
+        #taoHeader img {
+          width: 20%;
+          height: 20%;
+        }
+      }
+      body {
+        background-color: #1e1e2e;
+        color: #cdd6f4;
+      }
+      .surface1 {
+        background-color: #313244;
+        color: #cdd6f4;
+      }
+      .btn-surface1 {
+        background-color: #313244;
+        color: #cdd6f4;
+        border-color: #cdd6f4;
+      }
+      .custom-card {
+        margin-bottom: 20px;
+      }
+      .footer-padding {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid surface1" id="taoHeader">
+      <a href="https://tao-linux.github.io"
+        ><img
+          class="img-responsive"
+          src="https://raw.githubusercontent.com/Tao-Linux/Tao-ISO/main/assets/tao-text.svg"
+          width="10%"
+          height="10%"
+      /></a>
+      <div
+        style="
+          position: absolute;
+          top: 50%;
+          right: 0;
+          transform: translateY(-50%);
+          padding: 10px;
+        "
+      >
+        <a
+          href="https://github.com/Tao-Linux/Tao-ISO/#installation"
+          style="color: #cdd6f4; text-decoration: none; margin-right: 10px"
+          >Installation Guide</a
+        >
+        <a
+          href="https://github.com/Tao-Linux/Tao-ISO/releases"
+          style="color: #cdd6f4; text-decoration: none; margin-right: 10px"
+          >Releases</a
+        >
+        <a
+          href="https://github.com/Tao-Linux/Tao-ISO/issues"
+          style="color: #cdd6f4; text-decoration: none; margin-right: 10px"
+          >Issues</a
+        >
+        <a
+          href="https://github.com/Tao-Linux/Tao-ISO/pulls"
+          style="color: #cdd6f4; text-decoration: none; margin-right: 10px"
+          >Pull Requests</a
+        >
+        <a
+          href="https://github.com/Tao-Linux/Tao-ISO/discussions"
+          style="color: #cdd6f4; text-decoration: none"
+          >Discussions</a
+        >
+      </div>
+    </div>
+    <div class="container-fluid text-center" id="taoIntro">
+      <br />
+      <img
+        src="https://raw.githubusercontent.com/Tao-Linux/Tao-ISO/main/assets/tao.svg"
+        width="20%"
+        height="20%"
+      />
+      <br /><br />
+      <h1>Welcome to Tao Linux</h1>
+      <p>
+        Tao Linux is an <a href="https://archlinux.org/">Arch Linux</a>-based
+        distribution that heavily utilizes the
+        <a href="https://github.com/catppuccin/catppuccin">Catppuccin</a> Mocha
+        theme and <a href="https://github.com/baskerville/bspwm">BSPWM</a>. We
+        aim to make the installation of a beautiful and efficient system easier
+        than ever before!
+      </p>
+      <a
+        href="https://github.com/Tao-Linux/Tao-ISO/#installation"
+        class="btn btn-surface1"
+        >Installation Guide</a
+      >
+    </div>
+    <br />
+    <div class="container-fluid text-center" id="taoWhy">
+      <div class="container text-center">
+        <h2>Why Choose Tao Linux?</h2>
+        <p>
+          Tao Linux is not just another Linux distribution; it's a purrfect
+          blend of power, customization, and feline flair. Here's why you'll
+          love it:
+        </p>
+
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="card custom-card p-3 surface1 flex-fill">
+              <h3>Unique Catppuccin Mocha Theme</h3>
+              <p>
+                Experience a visually pleasing and distinctive custom-crafted
+                desktop environment with the soothing Catppuccin Mocha theme.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="card custom-card p-3 surface1 flex-fill">
+              <h3>BSPWM Brilliance</h3>
+              <p>
+                Be productive with the powerful BSPWM window manager, allowing
+                you to manage windows easily in a binary space partitioned,
+                master-stack, or other layout - the choice is yours!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card custom-card p-3 surface1">
+              <h3>Rock-Solid Arch Base</h3>
+              <p>
+                Tao Linux is based on Arch Linux, a simple rolling-release
+                distribution. Use the powerful `pacman` package manager and get
+                updates at the speed of light.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card custom-card p-3 surface1">
+              <h3>Seamless Installation</h3>
+              <p>
+                The Tao Linux ISOs include the Calamares installer, which
+                makes setting up Tao a breeze, getting you up and running
+                with a beautiful and efficient system in no time.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          href="https://github.com/Tao-Linux/Tao-ISO/#installation"
+          class="btn btn-surface1 mt-3"
+          >Get Started with Tao</a
+        >
+      </div>
+    </div>
+    <br />
+    <div class="container-fluid surface1 footer-padding" id="taoFooter">
+      <p>
+        All repositories in the Tao Linux GitHub organization are copyleft
+        🄯2023-present Tao Linux and licensed under the GPLv3 License. Some
+        rights reserved.
+      </p>
+    </div>
+  </body>
+</html>
